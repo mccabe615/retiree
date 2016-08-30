@@ -1,7 +1,9 @@
 require "retire/version"
 
-module Retire
+class Retire
   def self.run
-    `retire`
+    puts 'blah'
+    output = `retire`
+    puts output
   end
 end

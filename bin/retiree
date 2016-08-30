@@ -2,4 +2,6 @@
 
 require 'retire'
 
+puts 'Running Retire.js'
+
 Retire.run
