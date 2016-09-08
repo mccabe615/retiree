@@ -8,7 +8,7 @@ Rake::TestTask.new(:test) do |t|
 end
 
 task :console do
-  exec "irb -r retire -I ./lib"
+  exec "irb -r retiree -I ./lib"
 end
 
 task :default => :spec

@@ -1,7 +1,9 @@
 #!/usr/bin/env ruby
 
-require 'retire'
+require 'retiree'
 
 puts 'Running Retire.js'
 
-Retire.run
+retire = Retiree.new
+
+retire.run

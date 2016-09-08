@@ -1,6 +1,6 @@
-require "retire/version"
+require "retiree/version"
 
-class Retire
+class Retiree
   def self.run
     puts 'blah'
     output = `retire`
